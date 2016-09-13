@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/q2"
+        android:layout_weight="1.01" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="TRABANT 600"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="TRABANT 601"
+        android:id="@+id/button_correct1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="TRABANT 606"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="TRABANT 609"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"/>
+</LinearLayout>
